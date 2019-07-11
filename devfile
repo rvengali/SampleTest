@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
                 // TODO Auto-generated method stub  
                 String value=adapter.getItem(position);  
                 Toast.makeText(getApplicationContext(),value,Toast.LENGTH_SHORT).show();  
-  
+                Toast.makeText(getApplicationContext(),"extra line",Toast.LENGTH_SHORT).show();
+
             }  
         });  
     }  
